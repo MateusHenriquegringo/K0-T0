@@ -50,8 +50,6 @@ public class Main {
         for (largest = 2; largest <= number; largest++) {
             if (number % largest == 0) {
                 number /= largest;
-                number = number - largest;
-
             }
         }
         return largest;
